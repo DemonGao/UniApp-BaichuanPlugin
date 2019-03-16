@@ -1,0 +1,26 @@
+{
+	"name": "BaichuanPlugin",
+	"id": "JHM-BaichuanPlugin",
+	"version": "0.1.1",
+	"description": "阿里百川插件",
+	"_dp_typ": "nativeplugin",
+	"_dp_nativeplugin": {
+		"ios": {
+			"plugins": [{
+				"type": "module",
+				"name": "baichuanplugin",
+				"class": "baichuanPluginModule"
+			}],
+			"integrateType": "framework",
+			"framework": ["BaichuanPlugin.framework", "AlibabaAuthExt.framework", "AlibabaAuthSDK.framework",
+				"AlibcLinkPartnerSDK.framework", "AlibcTradeBiz.framework", "AlibcTradeCommon.framework",
+				"AlibcTradeSDK.framework", "OpenMtopExt.framework", "SecurityGuardSDK.framework", "SGMain.framework",
+				"TUnionTradeSDK.framework", "UTMini.framework", "UTDID.framework"
+			],
+			"resources": ["yw_1222.jpg", "AlibabaAuthSDK.bundle", "AlipaySDK.bundle", "ALPLinkPartnerSDK.bundle",
+				"NBResource.bundle"
+			],
+			"deployementTarget": "8.0"
+		}
+	}
+}

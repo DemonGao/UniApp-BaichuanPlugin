@@ -1,0 +1,6 @@
+framework module BaichuanPlugin {
+  umbrella header "BaichuanPlugin.h"
+
+  export *
+  module * { export * }
+}
